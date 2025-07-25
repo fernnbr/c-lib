@@ -1,0 +1,9 @@
+Specs 
+
+Makefile
+
+- Must compile with make, make all
+- Must build a static library called libft.a
+- Must clean object files with make clean
+- Must remove libft.a with make fclean
+- Must rebuild everything with make re
