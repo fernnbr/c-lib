@@ -1,26 +1,26 @@
-﻿01 Function Name:
+﻿**01 Function Name:**
 ft_atoi
 
 
-02 Difficulty Level:
+**02 Difficulty Level:**
 Medium
 
 
-03 Function Purpose:
+**03 Function Purpose:**
 Converts the initial portion of a string into its corresponding integer value.
 
 
-04 Function Analogy:
+**04 Function Analogy:**
 Like reading a house number from a street sign: you skip the blank space, maybe see a minus sign, then read the digits until the number stops.
 
 
-05 Function Prototype
+**05 Function Prototype:** 
 
 
 int        ft_atoi(const char *str);
 
 
-06 Parameters:
+**06 Parameters:**
 
 
 Name: str        
@@ -29,11 +29,12 @@ Purpose: Pointer to the string to be converted into an integer.
                 
 
 
-07 Return Value:
+**07 Return Value:**
+
 Returns the integer value represented by the numeric characters in the string. If a - sign is detected, the result is negative. Ignores non-numeric characters after the number. If the string doesn’t contain digits, returns 0.
 
 
-08 Function Code:
+**08 Function Code:**
 
 
 int        ft_atoi(const char *str)
@@ -71,7 +72,7 @@ int        ft_atoi(const char *str)
         return (result * sign);
 }
 
-09 Function Use Cases: 
+**09 Function Use Cases:** 
 
 
 int x = ft_atoi("42");        // x == 42
@@ -79,10 +80,9 @@ int y = ft_atoi("   -123");   // y == -123
 int z = ft_atoi("007");       // z == 7
 int a = ft_atoi("123abc");    // a == 123
 int b = ft_atoi("abc123");    // b == 0
-10 Test Main
 
 
-
+**10 Test Main**
 
 #include <stdio.h>
 
@@ -102,7 +102,9 @@ int main(void)
 }
 
 
-11 Gotchas
+**11 Gotchas:**
+
+
 - Only the first valid number is parsed; anything after is ignored.
 - Whitespace includes tabs, newlines (\n), carriage returns (\r), etc.
 - Multiple signs like "--42" or "+-42" are invalid and return 0.
@@ -110,23 +112,20 @@ int main(void)
 - Leading characters like "abc42" will return 0, not an error.
 
 
-12 Implementation Tips: 
+**12 Implementation Tips:** 
+
 - Use while (*str == ' ' || (*str >= 9 && *str <= 13)) to skip all ASCII whitespace characters.
-
-
 - Watch out for the indentation of str++ in the if (*str == '-') block — it must always execute when a sign is found.
-
-
 - Remember *str - '0' converts a char digit to its integer value.
 
 
-13 Reusability in Other Libft Functions: 
+**13 Reusability in Other Libft Functions:** 
 
 
 Could be reused or referenced in bonus functions like ft_strtol or to validate number inputs before allocation
 
 
-14 Main Concepts Involved: 
+**14 Main Concepts Involved:** 
 
 - Pointer iteration (while (*str))
 - ASCII value manipulation
@@ -134,7 +133,7 @@ Could be reused or referenced in bonus functions like ft_strtol or to validate n
 - Input parsing
 
 
-15 Software Engineering Tips: 
+**15 Software Engineering Tips:** 
 
 
 - Always test with both valid and invalid inputs
