@@ -1,5 +1,6 @@
 #include "libft.h"
 
+//Identify a substring within a string
 char	*ft_substr(const char *s, unsigned int start, size_t len)
 {
 	size_t	s_len;
