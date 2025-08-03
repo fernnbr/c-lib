@@ -28,3 +28,16 @@ int main(void)
 
     return 0;
 }
+
+
+//Expected_Results
+
+//ft_isalnum('a' = 97) = 1
+//ft_isalnum('Z' = 90) = 1
+//ft_isalnum('5' = 53) = 1
+//ft_isalnum('@' = 64) = 0
+//ft_isalnum(' ' = 32) = 0
+//ft_isalnum('0' = 48) = 1
+//ft_isalnum('g' = 103) = 1
+//ft_isalnum('#' = 35) = 0
+
