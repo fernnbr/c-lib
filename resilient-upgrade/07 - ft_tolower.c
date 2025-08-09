@@ -1,3 +1,5 @@
+#include "libft.h"
+
 int  ft_tolower(int c)
 {
 	if (c == EOF || c < 0 || c > 255)
