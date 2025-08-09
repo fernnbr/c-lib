@@ -1,8 +1,6 @@
-Test inputs include values below '0' (ASCII 48), digits within 48–57, and values outside
-
-#include <stdio.h>
-#include <ctype.h>
-#include "libft.h"  // for ft_isdigit prototype
+#include <stdio.h> 
+ #include <ctype.h> */
+ #include "libft.h" */
 
 int main(void)
 {
@@ -20,3 +18,15 @@ int main(void)
 
     return 0;
 }
+
+
+/* What I am testing */
+
+Inputs below the ASCII digit range (e.g., -5, 0, 47)
+Inputs inside the ASCII digit range (48 to 57, representing '0' to '9')
+Inputs above the digit range (e.g., 58, 100, 255)
+Confirm that both original isdigit and ft_isdigit return non-zero (true) only for digits, zero otherwise
+
+/* Exepected Output */
+/* 0, 0, 0, 1, 1, 1, 0, 0, 0 */
+
