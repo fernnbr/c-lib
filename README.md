@@ -11,13 +11,15 @@ This document was created with one goal in mind: **to help beginners and student
 
 I am dividing different content into diferent repos. This guide is meant to be simple, practical, and 100% beginner-friendly. 
 
-**_/originals**: Shows my original code, the 1st I wrote it 
+**_/originals:** Shows my original code, the 1st I wrote it 
 
-**_/resilient-upgrade**: Shows the changes I made after learning more through peers, research and code review by seniors 
+**_/resilient-upgrade:** Shows the changes I made after learning more through peers, research and code review by seniors 
 
-**_/test-main-cmp**: The mains that I used to test and compare with the original function in C (when needed) + expected input 
+**_/test-main-cmp:** The mains that I used to test and compare with the original function in C (when needed) + expected input 
 
-**_/explanations**: More topics and content about each function, like its purpose, "twin" on std lib C, and so on 
+**_/explanations:** More topics and content about each function, like its purpose, "twin" on std lib C, and so on 
+
+**_/test-valgrind:** Valgrind tests, main and bash to look for memmory leaks (or not) 
 
 
 ## Explanations Repo (under construction)
