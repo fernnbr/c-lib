@@ -9,4 +9,4 @@ In this repo I will centralise the explanations and learnings for each function,
 7) How to handle possible errors 
 8) How to handle the points on 6) applied to function
 9) Important notes about the function
-10) Suggestion of better / resilient code based on what I type 
+10) Suggestion of better / resilient code 
