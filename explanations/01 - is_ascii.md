@@ -66,7 +66,7 @@ you might print garbage, cause undefined behavior in some environments, or break
 
 ## Possible to Recycle / Recall?
 
-YES 
+YES | 
 Input validation in other Libft functions like: 
 **ft_isprint, ft_isalpha**
 (to ensure you’re only checking ASCII codes)
