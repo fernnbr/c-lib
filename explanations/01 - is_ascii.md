@@ -1,4 +1,4 @@
-##How it originally works (C manual)
+## How it originally works (C manual)
 
 In the C standard library (<ctype.h>), isascii() checks whether an integer value corresponds to a valid ASCII character code (0 to 127 inclusive)
 It’s often used to validate that a character is within the basic ASCII set before doing operations that assume ASCII encoding
