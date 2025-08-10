@@ -1,7 +1,5 @@
 In this repo I will centralise the explanations and learnings for each function, including: 
 
-From now on, do this: 
-
 1) How the function originally works according to C manual. How the function is expected to behave
 2) What is expected to return 
 3) Expected input range 
