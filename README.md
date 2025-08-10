@@ -19,7 +19,7 @@ I am dividing different content into diferent repos. This guide is meant to be s
 
 **_/explanations:** More topics and content about each function, like its purpose, "twin" on std lib C, and so on 
 
-**_/test-valgrind:** Valgrind tests, main and bash to look for memmory leaks (or not) 
+**_/test-valgrind:** Valgrind tests, main and bash to look for memory leaks (or not) 
 
 
 ## Explanations Repo (under construction)
