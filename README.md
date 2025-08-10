@@ -148,3 +148,8 @@ ft_putchar_fd – Output a char
 ft_putstr_fd – Output a string  
 ft_putendl_fd – Output a string + newline  
 ft_putnbr_fd – Output an integer  
+
+## Extra Checker 
+
+You can use Francinette to run **extra** tests (that can work or not) 
+Access: https://github.com/xicodomingues/francinette
