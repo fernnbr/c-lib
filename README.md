@@ -21,7 +21,7 @@ I am dividing different content into diferent repos. This guide is meant to be s
 
 **_/test-valgrind:** Valgrind tests, main and bash to look for memory leaks (or not) 
 
-**_/baby-steps:** Explanations step by steps of each function (of what is happening) 
+**_/baby-steps:** Explanations step by step of each function (of what is happening) 
 
 
 ## Explanations Repo (under construction)
