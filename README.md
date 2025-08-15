@@ -23,6 +23,8 @@ I am dividing different content into diferent repos. This guide is meant to be s
 
 **_/baby-steps:** Explanations step by step of each function (of what is happening) 
 
+**_/submitted:** 100% approved final functions 
+
 
 ## Explanations Repo (under construction)
 
