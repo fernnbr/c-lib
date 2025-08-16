@@ -1,5 +1,8 @@
-_"Time is an illusion. Lunchtime doubly so."_
+```
+Time is an illusion. 
+Lunchtime doubly so.
 — The Hitchhiker's Guide to the Galaxy, Douglas Adams
+```
 
 # This is c-lib
 
