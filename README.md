@@ -1,7 +1,9 @@
 ```
 Time is an illusion. 
 Lunchtime doubly so.
-— The Hitchhiker's Guide to the Galaxy, Douglas Adams
+
+— The Hitchhiker's Guide to the Galaxy,
+Douglas Adams
 ```
 
 # This is c-lib
