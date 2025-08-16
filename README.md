@@ -1,4 +1,4 @@
-# c-lib
+## c-lib
 
 "Time is an illusion. Lunchtime doubly so."
 — The Hitchhiker's Guide to the Galaxy, Douglas Adams
@@ -9,9 +9,10 @@ This document was created with one goal in mind: **to help beginners and student
 
 ## Structure
 
-I am dividing different content into diferent repos. This guide is meant to be simple, practical, and 100% beginner-friendly. 
+I am dividing different content into diferent repos. 
+**This guide is meant to be simple, practical, and 100% beginner-friendly:** 
 
-`originals` Shows my original code, the 1st I wrote it 
+`_/originals` Shows my original code, the 1st I wrote it 
 
 `_/resilient-upgrade`Shows the changes I made after learning more through peers, research and code review by seniors 
 
