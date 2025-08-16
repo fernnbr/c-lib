@@ -7,7 +7,11 @@
 
 This document was created with one goal in mind: **to help beginners and students studying software engineering, especially those at 42 School, understand and review each function in the Libft project with clarity and confidence**. The purpose here is **entirely educational**. This is not a reference manual for production code, but a companion guide to support your **studies only**. Whether you're preparing for exams, reviewing your own code, or trying to grasp the logic behind C standard functions, this documentation is structured to meet you where you are at the beginning of your learning journey.
 
-### Structure
+
+- [x] Here you will learn more about some C functions and how to mimic them 
+
+
+## Structure
 
 I am dividing different content into diferent repos. 
 **This guide is meant to be simple, practical, and 100% beginner-friendly:** 
