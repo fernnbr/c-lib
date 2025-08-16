@@ -1,15 +1,25 @@
+_"Time is an illusion. Lunchtime doubly so."_
+— The Hitchhiker's Guide to the Galaxy, Douglas Adams
+
 # This is c-lib
 
-"Time is an illusion. Lunchtime doubly so."
-— The Hitchhiker's Guide to the Galaxy, Douglas Adams
+- [x] Here you will learn more about some C functions and how to mimic them 
+
 
 ## Welcome, stranger! 
 
 This document was created with one goal in mind: **to help beginners and students studying software engineering, especially those at 42 School, understand and review each function in the Libft project with clarity and confidence**. The purpose here is **entirely educational**. This is not a reference manual for production code, but a companion guide to support your **studies only**. Whether you're preparing for exams, reviewing your own code, or trying to grasp the logic behind C standard functions, this documentation is structured to meet you where you are at the beginning of your learning journey.
 
+---
 
-- [x] Here you will learn more about some C functions and how to mimic them 
+<p align="center">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjR4MGF0ZzFzdWpyOGsxOG5leDBzaDQxNzBqaXA3ZHIxNXp4Zm1xaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QMHoU66sBXqqLqYvGO/giphy.gif">
+</p></figcaption>
+<p align="center">
+  (How I was while building this project)
+</p>
 
+---
 
 ## Structure
 
@@ -54,46 +64,62 @@ It's expected to find in this repo the following structure:
 17) Software Engineering Tips: Best practices related to clean code, readability, maintainability, or testing relevant to this function
 18) Other interesting notes about the function: Curiosities, findings and so on  
 
+<br></br>
+<div align="center">
+  
+# The Functions and Files in This Project 
 
-## The Functions and Files in This Project 
+<p align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGVoaTEyZGpmcmp3cnMzMG4xeXBmcml5YTA1NTh5dDI0aHN2MDUxZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5qoRdabXeT4GY/giphy.gif">
+</p></figcaption>
+<p align="center">
+  (Don't Panic)
+</p>
 
-1) `ft_atoi`  
-2) `ft_bzero`  
-3) `ft_calloc`  
-4) `ft_isalnum`  
-5) `ft_isalpha`  
-6) `ft_isascii`  
-7) `ft_isdigit`  
-8) `ft_isprint`  
-9) `ft_itoa`  
-10) `ft_memchr` 
-11) `ft_memcmp`
-12) `ft_memcpy`
-13) `ft_memmove`
-14) `ft_memset`
-15) `ft_putchar_fd`
-16) `ft_putendl_fd`
-17) `ft_putnbr_fd`
-18) `ft_putstr_fd`
-19) `ft_split`
-20) `ft_strchr`
-21) `ft_striteri`
-22) `ft_strjoin`
-23) `ft_strlcat`
-24) `ft_strlcpy`
-25) `ft_strlen`
-26) `ft_strmapi`
-27) `ft_strncmp`
-28) `ft_strnstr`
-29) `ft_strrchr`
-30) `ft_strtrim`
-31) `ft_strdup`
-32) `ft_substr`
-33) `ft_tolower`
-34) `ft_toupper`
-35) `Makefile`
-36) `Libft.h`
+<br></br>
 
+| File / Function       | Purpose / Description |
+|----------------------|---------------------|
+| ft_atoi              | Converts a string to an integer |
+| ft_bzero             | Sets memory to zero |
+| ft_calloc            | Allocates memory and initializes it to zero |
+| ft_isalnum           | Checks if a character is alphanumeric |
+| ft_isalpha           | Checks if a character is alphabetic |
+| ft_isascii           | Checks if a character is an ASCII character |
+| ft_isdigit           | Checks if a character is a digit |
+| ft_isprint           | Checks if a character is printable |
+| ft_itoa              | Converts an integer to a string |
+| ft_memchr            | Searches for a byte in memory |
+| ft_memcmp            | Compares two memory areas |
+| ft_memcpy            | Copies memory from source to destination |
+| ft_memmove           | Copies memory safely, even if areas overlap |
+| ft_memset            | Fills memory with a specific byte |
+| ft_putchar_fd        | Writes a character to a file descriptor |
+| ft_putendl_fd        | Writes a string with a newline to a file descriptor |
+| ft_putnbr_fd         | Writes an integer to a file descriptor |
+| ft_putstr_fd         | Writes a string to a file descriptor |
+| ft_split             | Splits a string into an array of strings using a delimiter |
+| ft_strchr            | Returns a pointer to the first occurrence of a character in a string |
+| ft_striteri          | Applies a function to each character of a string with its index |
+| ft_strjoin           | Joins two strings into a new string |
+| ft_strlcat           | Concatenates strings safely, respecting buffer size |
+| ft_strlcpy           | Copies a string safely, respecting buffer size |
+| ft_strlen            | Returns the length of a string |
+| ft_strmapi           | Applies a function to each character of a string and returns a new string |
+| ft_strncmp           | Compares up to n characters of two strings |
+| ft_strnstr           | Finds a substring within a string, up to n characters |
+| ft_strrchr           | Returns a pointer to the last occurrence of a character in a string |
+| ft_strtrim           | Trims characters from the start and end of a string |
+| ft_strdup            | Duplicates a string (allocates new memory). |
+| ft_substr            | Extracts a substring from a string |
+| ft_tolower           | Converts a character to lowercase |
+| ft_toupper           | Converts a character to uppercase |
+| Makefile             | Automates compilation of all functions into `libft.a` |
+| Libft.h              | Header file with function prototypes and necessary includes |
+
+</div>
+
+<br></br>
 ## Function Segments 
 
 ### Memory Functions: [Use for memory manipulation]
@@ -158,11 +184,18 @@ It's expected to find in this repo the following structure:
 `ft_putendl_fd` – Output a string + newline  
 `ft_putnbr_fd` – Output an integer  
 
+<div align="center">
+  
 ## Extra Checker 
+
+<p align="center">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXl0aGludDJmaGNseW1heWh4cTRkYmZjbzQ0NnZuNjQ2MzdzYXdmbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l1gYcLBSdL7PoDsizo/giphy.gif">
+</p></figcaption>
+<p align="center">
+  (You know... Just to be safe)
+</p>
 
 You can use Francinette to run **extra** tests (that can work or not) 
 Access: https://github.com/xicodomingues/francinette
 
-
-
-
+</div>
