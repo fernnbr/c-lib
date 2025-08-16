@@ -1,4 +1,4 @@
-## c-lib
+# This is c-lib
 
 "Time is an illusion. Lunchtime doubly so."
 — The Hitchhiker's Guide to the Galaxy, Douglas Adams
@@ -7,7 +7,7 @@
 
 This document was created with one goal in mind: **to help beginners and students studying software engineering, especially those at 42 School, understand and review each function in the Libft project with clarity and confidence**. The purpose here is **entirely educational**. This is not a reference manual for production code, but a companion guide to support your **studies only**. Whether you're preparing for exams, reviewing your own code, or trying to grasp the logic behind C standard functions, this documentation is structured to meet you where you are at the beginning of your learning journey.
 
-## Structure
+### Structure
 
 I am dividing different content into diferent repos. 
 **This guide is meant to be simple, practical, and 100% beginner-friendly:** 
@@ -27,7 +27,7 @@ I am dividing different content into diferent repos.
 `_/submitted` 100% approved final functions 
 
 
-## Explanations Repo (under construction)
+### Explanations Repo (under construction)
 
 It's expected to find in this repo the following structure:  
 
@@ -92,7 +92,7 @@ It's expected to find in this repo the following structure:
 
 ## Function Segments 
 
-## Memory Functions: [Use for memory manipulation]
+### Memory Functions: [Use for memory manipulation]
 
 `ft_bzero` – Write zeroes to memory  
 `ft_calloc` – Allocate memory and initialize to zero  
@@ -102,7 +102,7 @@ It's expected to find in this repo the following structure:
 `ft_memmove` – Move memory (handles overlap)  
 `ft_memset` – Fill memory with a constant byte  
 
-## Character Checks & Conversions: [Checks for types or changes]
+### Character Checks & Conversions: [Checks for types or changes]
 
 **Character Checks:**  
 
@@ -117,7 +117,7 @@ It's expected to find in this repo the following structure:
 `ft_tolower` – Convert uppercase to lowercase  
 `ft_toupper` – Convert lowercase to uppercase  
 
-## String Functions: [Manipulate and analyze strings]
+### String Functions: [Manipulate and analyze strings]
 
 **Basic String Handling:**  
 
@@ -142,12 +142,12 @@ It's expected to find in this repo the following structure:
 `ft_strmapi` – Apply function to each char (returns new string)  
 `ft_striteri` – Apply function to each char in-place  
 
-## Conversions: [Number/string conversions]
+### Conversions: [Number/string conversions]
 
 `ft_atoi` – Convert string to int  
 `ft_itoa` – Convert int to string  
 
-## File Descriptor Output: [Output to a file descriptor]
+### File Descriptor Output: [Output to a file descriptor]
 
 `ft_putchar_fd` – Output a char  
 `ft_putstr_fd` – Output a string  
